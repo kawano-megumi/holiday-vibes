@@ -1,0 +1,69 @@
+#parent p {
+	font-size: 24px;
+}
+#grandchild p {
+	font-size: 30px;
+}
+.text {
+	color: red;
+}
+
+#grandchild p {
+	color: blue;
+}
+#grandchild .text {
+	color: blue;
+}
+
+#parent #child #grandchild p {
+	color: blue;
+}
+
+#parent #grandchild p {
+	color: rgb(114, 122, 163);
+	color: #000080;
+}
+
+#child > .text {
+	color: orange;;
+}
+
+html {
+	font-size: 15px;
+}
+
+.size {
+	font-size: 14px;
+}
+.size strong {
+	font-size: 3em;
+}
+
+.size strong {
+	font-size: 3rem;
+}
+
+#child {
+	padding: 20px;	// 全方位同じパターン
+	padding: 20px 10px;	// 上下、左右
+	padding: 20px 15px 10px 5px;	// 全て違う値（上、右、下、左）
+
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+
+div {
+	padding: 20px;
+}
+#parent {
+	padding-bottom: 40px;
+}
+
+
+
+
+
+
+
