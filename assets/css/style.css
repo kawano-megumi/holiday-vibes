@@ -28,6 +28,7 @@ article {
 	box-sizing: border-box;
 	padding: 20px;
 	border-bottom: 1px solid #ddd;
+	z-index: 100;
 }
 .l-header__inner {
 	display: flex;
@@ -78,11 +79,24 @@ article {
 	position: absolute;
 	right: 20px;
 	bottom: 20px;
-	background-color: rgba(255, 255, 255, 0.6);
-	padding: 20px 30px;
-	font-size: 22px;
-	line-height: 2;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 0 20px;
 	color: green;
+}
+.mainvisual .text h1 {
+	font-size: 20px;
+	line-height: 1.6;
+	color: #488A99;
+}
+.mainvisual .text h1 .site-name {
+	font-family: "Chiron GoRound TC", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 3.2rem;
+	line-height: 1.2;
+	color:#ff9900;
+	text-shadow: 0 0 6px rgba(84, 73, 20, 0.3);
 }
 .mainvisual img {
 	aspect-ratio: 20 / 9;
