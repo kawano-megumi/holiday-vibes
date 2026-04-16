@@ -163,3 +163,50 @@ a {
 a:hover {
 	text-decoration: underline;
 }
+
+/* カタログ請求フォーム */
+#form table th {
+	width: 200px;
+	text-align: left;
+	padding: 1em;
+}
+#form table td {
+	width: calc(100% - 200px);
+	padding: 1em;
+}
+#form input[type=text] {
+	width: 100%;
+	padding: 0.5em;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+#form select {
+	padding: 0.5em;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+#form .required {
+	color: #cc0000;
+	display: inline-block;
+	margin-left: 5px;
+}
+#form .notice {
+	text-align: right;
+	font-size: 0.9em;
+}
+
+#form input[type=button] {
+	min-width: 240px;
+	padding: 1em;
+	border: none;
+	background-color: #ff9900;
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: 0.08em;
+}
+
+#errorMessage p {
+	color: #ff0000;
+	margin: 0;
+	font-size: 0.9em;
+}
