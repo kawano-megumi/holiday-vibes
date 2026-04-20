@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>私のおすすめの休日の過ごし方</title>
+	<link rel="stylesheet" href="assets/css/uaplus.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="l-header">
+	<div class="l-header__inner">
+		<div class="l-header__logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></div>
+		<nav id="gnav">
+			<ul>
+				<li><a href="index.html">ホーム</a></li>
+				<li><a href="about.html">メディアについて</a></li>
+				<li><a href="form.html">カタログ請求</a></li>
+				<li><a href="contact.html">お問い合わせ</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+<main>
+	<article>
+		<section>
+			<h1>カタログ請求フォーム</h1>
+			<div id="errorMessage"></div>
+			<form action="" name="requestForm" id="form">
+				<p class="notice"><span class="required">*</span> 印は必須項目です</p>
+				<table>
+					<tr>
+						<th><label>お名前</label><span class="required">*</span></th>
+						<td><div id="fullname"></div></td>
+					</tr>
+					<tr>
+						<th><label>郵便番号</label><span class="required">*</span></th>
+						<td><div id="zip"></div></td>
+					</tr>
+					<tr>
+						<th><label>都道府県</label><span class="required">*</span></th>
+						<td><div id="pref"></div></td>
+					</tr>
+					<tr>
+						<th><label>住所</label><span class="required">*</span></th>
+						<td><div id="address1"></div></td>
+					</tr>
+					<tr>
+						<th><label>マンション、アパート</label></th>
+						<td><div id="address2"></div></td>
+					</tr>
+					<tr>
+						<th><label>電話番号</label><span class="required">*</span></th>
+						<td><div id="tel"></div></td>
+					</tr>
+				</table>
+				<h3>アンケートにお答えください</h3>
+				<table>
+					<tr>
+						<th><label>このサイトをどこで知りましたか？<br>（複数回答可）</label></th>
+						<td><div id="fromto"></div></td>
+					</tr>
+				</table>
+				<div style="text-align: center;">
+					<!-- <p><input type="checkbox" name="accept" id="accept"> <a href="#">プライバシーポリシー</a>に同意します</p> -->
+					<!-- <p><input type="button" value="キャンセル" id="backButton"></p> -->
+					<p><input type="button" value="送信する" id="sendButton"></p>
+				</div>
+			</form>
+		</section>
+	</article>
+</main>
+<footer class="l-footer">
+	<div class="l-footer__inner">
+		<!-- <div class="l-footer__banner">
+			<a href="form.html"><img src="assets/images/banner.png" alt=""></a>
+		</div> -->
+		<p class="copyright">©2026 HOLIDAY VIBESS</p>
+	</div>
+</footer>
+
+<script src="assets/js/confirm.js"></script>
+</body>
+</html>
